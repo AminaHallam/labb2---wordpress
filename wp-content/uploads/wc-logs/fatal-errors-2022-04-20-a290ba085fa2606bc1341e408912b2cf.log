@@ -1,0 +1,13 @@
+2022-04-20T10:01:52+00:00 CRITICAL syntax error, unexpected token "endwhile" i /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/home.php på rad 21
+
+2022-04-20T16:43:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/functions.php on line 10 and at least 2 expected in /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php:569
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/functions.php(10): remove_action('woocommerce_bef...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-settings.php(555): include('/Applications/M...')
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-config.php(96): require_once('/Applications/M...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-load.php(50): require_once('/Applications/M...')
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(13): require_once('/Applications/M...')
+#5 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#6 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php på rad 569
+

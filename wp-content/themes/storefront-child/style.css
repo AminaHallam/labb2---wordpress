@@ -1,0 +1,29 @@
+/* 
+
+Theme name: Storefront child-theme
+Template: storefront
+Description: Child-theme for storefront. 
+
+*/ 
+
+#main {
+    list-style: none;
+}
+
+.socialMedia {
+    list-style: none;
+}
+
+.wp-container-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.wp-container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.site-footer h2 {
+    text-align: center;
+}

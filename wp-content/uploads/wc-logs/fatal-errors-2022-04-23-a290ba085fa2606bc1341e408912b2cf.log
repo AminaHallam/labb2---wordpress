@@ -1,0 +1,13 @@
+2022-04-23T10:17:29+00:00 CRITICAL Uncaught Error: Call to undefined function is_contact() in /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/functions.php:37
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(309): remove_storefront_sidebar(NULL)
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/page.php(13): get_header()
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/functions.php på rad 37
+
