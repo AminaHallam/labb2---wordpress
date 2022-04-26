@@ -10,8 +10,6 @@
 		
 			<?php while(have_posts()) :
 			
-			
-					
 					
 					the_post(); 
 
@@ -25,6 +23,11 @@
 				endwhile; 
 
 			?>
+
+				<?php 
+                
+                dynamic_sidebar('widget3');
+                ?>
 
         </main>
 
