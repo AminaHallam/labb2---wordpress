@@ -1,0 +1,20 @@
+2022-04-26T16:37:28+00:00 CRITICAL Uncaught Error: Call to undefined function is_logged_in() in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:26
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): ah_after_post_content('\n<p class="has-...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<p class="has-...', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:paragra...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(419): the_content('Forts\xC3\xA4tt l\xC3\xA4sa...')
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_post_content('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content-single.php(21): do_action('storefront_sing...')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/single.php(14): get_template_part('content', 'single')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 26
+

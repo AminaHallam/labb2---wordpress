@@ -1,0 +1,293 @@
+2022-04-25T11:17:35+00:00 CRITICAL Uncaught Error: Call to undefined function is_page_blogg() in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): ah_add_promo('\n<div class="wp...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<div class="wp...', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:contact...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_page_content('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 22
+
+2022-04-25T11:18:30+00:00 CRITICAL Uncaught Error: Call to undefined function is_page_blogg() in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): ah_add_promo('\n<p class="has-...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<p class="has-...', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:paragra...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(419): the_content('Forts\xC3\xA4tt l\xC3\xA4sa...')
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_post_content('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content-single.php(21): do_action('storefront_sing...')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/home.php(18): get_template_part('content', 'single')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 22
+
+2022-04-25T11:19:00+00:00 CRITICAL Uncaught Error: Call to undefined function is_page_blogg() in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): ah_add_promo('\n<p class="has-...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<p class="has-...', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:paragra...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(419): the_content('Forts\xC3\xA4tt l\xC3\xA4sa...')
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_post_content('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content-single.php(21): do_action('storefront_sing...')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/home.php(18): get_template_part('content', 'single')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 22
+
+2022-04-25T11:22:58+00:00 CRITICAL Uncaught Error: Call to undefined function is_page_blogg() in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): ah_add_promo('\n<p class="has-...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<p class="has-...', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:paragra...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(419): the_content('Forts\xC3\xA4tt l\xC3\xA4sa...')
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_post_content('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content.php(20): do_action('storefront_loop...')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/loop.php(21): get_template_part('content', '')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#14 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#15 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/index.php(12): get_template_part('loop')
+#16 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#17 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#18 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#19 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 22
+
+2022-04-25T11:23:04+00:00 CRITICAL Uncaught Error: Call to undefined function is_page_blogg() in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): ah_add_promo('\n<p class="has-...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<p class="has-...', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:paragra...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(419): the_content('Forts\xC3\xA4tt l\xC3\xA4sa...')
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_post_content('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content.php(20): do_action('storefront_loop...')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/loop.php(21): get_template_part('content', '')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#14 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#15 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/index.php(12): get_template_part('loop')
+#16 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#17 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#18 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#19 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 22
+
+2022-04-25T11:23:32+00:00 CRITICAL Uncaught Error: Call to undefined function is_page_blogg() in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): ah_add_promo('\n<p class="has-...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<p class="has-...', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:paragra...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(419): the_content('Forts\xC3\xA4tt l\xC3\xA4sa...')
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_post_content('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content-single.php(21): do_action('storefront_sing...')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/home.php(18): get_template_part('content', 'single')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 22
+
+2022-04-25T12:23:45+00:00 CRITICAL Uncaught Error: Call to undefined function is_user_not_logged_in() in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): ah_add_promo('[woocommerce_my...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_page_content('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 22
+
+2022-04-25T12:56:33+00:00 CRITICAL Uncaught Error: Call to undefined function is_user_logged_out() in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:22
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): ah_add_promo('\n<p class="has-...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<p class="has-...', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:paragra...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(419): the_content('Forts\xC3\xA4tt l\xC3\xA4sa...')
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_post_content('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content-single.php(21): do_action('storefront_sing...')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/home.php(18): get_template_part('content', 'single')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#14 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#15 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 22
+
+2022-04-25T14:36:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "add_content_before" not found or invalid function name in /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('[woocommerce_my...', Array)
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:shortco...')
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(352): the_content()
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_page_content('')
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content-page.php(18): do_action('storefront_page')
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/page.php(24): get_template_part('content', 'page')
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#14 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php på rad 307
+
+2022-04-25T14:37:44+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "add_content_before" not found or invalid function name in /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php:307
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('\n<p class="has-...', Array)
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<!-- wp:paragra...')
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/inc/storefront-template-functions.php(419): the_content('Forts\xC3\xA4tt l\xC3\xA4sa...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_post_content('')
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/content-single.php(21): do_action('storefront_sing...')
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(716): load_template('/Applications/M...', false, Array)
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/home.php(18): get_template_part('content', 'single')
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#13 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#14 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php på rad 307
+
+2022-04-25T14:53:24+00:00 CRITICAL Uncaught Error: Object of class WP could not be converted to string in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:37
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_credit(Object(WP))
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp.php(771): do_action_ref_array('wp', Array)
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/functions.php(1310): WP->main('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(16): wp()
+#6 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 37
+
+2022-04-25T14:54:57+00:00 CRITICAL Uncaught Error: Object of class WP could not be converted to string in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:37
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): storefront_credit(Object(WP))
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(522): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp.php(771): do_action_ref_array('wp', Array)
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-includes/functions.php(1310): WP->main('')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(16): wp()
+#6 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#7 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 37
+
+2022-04-25T18:22:36+00:00 CRITICAL Uncaught Error: Call to undefined function is_myacount() in /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/functions.php:39
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(309): remove_storefront_sidebar(NULL)
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/page.php(13): get_header()
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/functions.php på rad 39
+
+2022-04-25T18:22:51+00:00 CRITICAL Uncaught Error: Call to undefined function is_myaccount() in /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/functions.php:39
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(309): remove_storefront_sidebar(NULL)
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/page.php(13): get_header()
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/functions.php på rad 39
+
+2022-04-25T18:23:00+00:00 CRITICAL Uncaught Error: Call to undefined function is_my_account() in /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/functions.php:39
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(309): remove_storefront_sidebar(NULL)
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-includes/general-template.php(38): do_action('get_header', NULL, Array)
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront/page.php(13): get_header()
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#7 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#8 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/themes/storefront-child/functions.php på rad 39
+
+2022-04-25T19:46:39+00:00 CRITICAL Uncaught Error: Call to undefined function is_single_product() in /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php:26
+Stack trace:
+#0 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): cspd_after_post_content('<p><strong>Lore...')
+#1 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(189): WP_Hook->apply_filters('<p><strong>Lore...', Array)
+#2 /Applications/MAMP/htdocs/labb2-AH/wp-includes/post-template.php(253): apply_filters('the_content', '<strong>Lorem I...')
+#3 /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/woocommerce/templates/single-product/tabs/description.php(30): the_content()
+#4 /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#5 /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1819): wc_get_template('single-product/...')
+#6 /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): woocommerce_product_description_tab('description', Array)
+#7 /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/Applications/M...')
+#8 /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1599): wc_get_template('single-product/...')
+#9 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(307): woocommerce_output_product_data_tabs('')
+#10 /Applications/MAMP/htdocs/labb2-AH/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#11 /Applications/MAMP/htdocs/labb2-AH/wp-includes/plugin.php(474): WP_Hook->do_action(Array)
+#12 /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/woocommerce/templates/content-single-product.php(72): do_action('woocommerce_aft...')
+#13 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template.php(772): require('/Applications/M...')
+#14 /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template('/Applications/M...', false)
+#15 /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part('content', 'single-product')
+#16 /Applications/MAMP/htdocs/labb2-AH/wp-includes/template-loader.php(106): include('/Applications/M...')
+#17 /Applications/MAMP/htdocs/labb2-AH/wp-blog-header.php(19): require_once('/Applications/M...')
+#18 /Applications/MAMP/htdocs/labb2-AH/index.php(17): require('/Applications/M...')
+#19 {main}
+  thrown i /Applications/MAMP/htdocs/labb2-AH/wp-content/plugins/ah-plugin/ahPlugin.php på rad 26
+
